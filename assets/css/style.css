@@ -53,9 +53,6 @@ col3 {
     flex-wrap: wrap;
 }
 
-.actor  {
-    animation-play-state: paused;
-}
 
 .actor {
     padding: 5px;
