@@ -1,12 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
 
-  <title>Movie GIFs</title>
+  <title>Actor GIFs</title>
 
   <meta name="viewport" charset="UTF-8" content="width=device-width, initial-scale=1">
   <!-- Linking jQuery library -->
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script> 
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
   <!-- Linking Bootstrap -->
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
   <!-- Linking Google Fonts -->
@@ -18,31 +19,37 @@
 
 <body>
 
-    <div id="movieButtons">
-      </div>
-
-    
-    <form id="movie_form">
-        <label for="movie_input">Add a Movie</label>
-
-        <input type="text" id="movie-input"><br>
-
-        <input id="add-movie" type="submit" value="Submit">
-    </form>
-
-    <div id="movies">
-      </div>
-
-</body>
-
-<footer class="fixed-bottom">
-    <div class="container footer mx-auto d-block">
-          <div>Kitt Livingston  |  Copyright ©</div>
+  <form class="form-inline mx-auto fixed-top">
+    <div class="col-xs-12 col-md-5 col1">
+      <h1>Actor GIFs</h1>
     </div>
- </footer>
+    <div class="col-xs-12 col-md-5 col2">
+      <input type="text" id="actor-input" placeholder="Add an Actor!">
+    </div>
+    <div class="col-xs-12 col-md-2 col3">
+      <input id="add-actor" class="btn btn-primary" type="submit" value="Submit">
+    </div>
+  </form>
+
+  <br>
+
+  <div id="actorButtons">
+  </div>
+
+  <br>
+
+  <div id="actors">
+  </div>
+
+  <br>
+
+  <footer class="fixed-bottom">
+    <div class="container footer mx-auto d-block">
+      <div>Kitt Livingston | Copyright ©</div>
+    </div>
+  </footer>
 
 </body>
-
 <!-- Linking Personal JS -->
 <script type="text/javascript" src="assets/javascript/app.js"></script>
 

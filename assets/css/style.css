@@ -1,0 +1,97 @@
+body {
+    margin-top: 60px;
+    margin-bottom: 40px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.form-inline {
+    background-color: white;
+}
+
+input {
+    padding: 10px;
+    margin: 10px 0;
+    width: 100%;
+}
+
+label {
+    padding: 10px;
+    margin: 0 10px;
+}
+
+button {
+    cursor: pointer;
+    text-transform: capitalize;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 0;
+}
+
+col3 {
+    text-align: center;
+}
+
+#actorButtons {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.actor-btn {
+    margin-left: 1px;
+    margin-right: 1px;
+    background-color: #e0dfdf
+}
+
+#actors{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.actor  {
+    animation-play-state: paused;
+}
+
+.actor {
+    padding: 5px;
+
+}
+
+p {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.rating {
+    margin-left: 3px;
+    margin-bottom: 0;
+}
+
+footer {
+    width: 100%;
+    text-align: center;
+    background-color: white;
+    border-top: 2px solid black;
+    padding-top: 10px;
+    color: black;
+    font-size: 10px;
+}
+
+.footer {
+    text-align: center;
+}
+
+@media screen and (max-width:768px) {
+
+body {
+margin-top: 160px;
+margin-bottom: 40px;
+}
+
+}
